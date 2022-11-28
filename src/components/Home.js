@@ -33,7 +33,7 @@ function Package(props) {
                 </div>
                 <div className="package_body d-flex flex-column justify-content-end" style={{fontFamily: "VALORANT"}}>
                     <div className="package_purchase">
-                        <a href="https://localhost" target="_blank" rel="noreferrer"  style={{fontFamily: "VALORANT"}}>Call Now!</a>
+                        <a href="https://wa.me/+923156627228" target="_blank" rel="noreferrer"  style={{fontFamily: "VALORANT"}}>Call Now!</a>
                     </div>
                 </div>
 
