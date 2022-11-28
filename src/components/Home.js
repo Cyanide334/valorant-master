@@ -13,7 +13,7 @@ function Point(props) {
             <div className="point_body ">
                 <div className="point_name" style={{fontFamily: "VALORANT"}}>{props.name}</div>
                 <div className="point_description ">{props.description}</div>
-                <div style={{fontFamily: "VALORANT"}}>{props.price}</div>
+                <div style={{fontFamily: "VALORANT", color: "#ff4655"}}>{props.price}</div>
             </div>
         </div>
     )
