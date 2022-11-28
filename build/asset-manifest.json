@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/valorant-master/static/css/main.679f84a2.chunk.css",
-    "main.js": "/valorant-master/static/js/main.39e92901.chunk.js",
-    "main.js.map": "/valorant-master/static/js/main.39e92901.chunk.js.map",
-    "runtime-main.js": "/valorant-master/static/js/runtime-main.4c9d329c.js",
-    "runtime-main.js.map": "/valorant-master/static/js/runtime-main.4c9d329c.js.map",
-    "static/js/2.808d7dba.chunk.js": "/valorant-master/static/js/2.808d7dba.chunk.js",
-    "static/js/2.808d7dba.chunk.js.map": "/valorant-master/static/js/2.808d7dba.chunk.js.map",
-    "index.html": "/valorant-master/index.html",
-    "static/css/main.679f84a2.chunk.css.map": "/valorant-master/static/css/main.679f84a2.chunk.css.map",
-    "static/js/2.808d7dba.chunk.js.LICENSE.txt": "/valorant-master/static/js/2.808d7dba.chunk.js.LICENSE.txt"
+    "main.css": "/static/css/main.679f84a2.chunk.css",
+    "main.js": "/static/js/main.89928573.chunk.js",
+    "main.js.map": "/static/js/main.89928573.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.f9743ba8.js",
+    "runtime-main.js.map": "/static/js/runtime-main.f9743ba8.js.map",
+    "static/js/2.808d7dba.chunk.js": "/static/js/2.808d7dba.chunk.js",
+    "static/js/2.808d7dba.chunk.js.map": "/static/js/2.808d7dba.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.679f84a2.chunk.css.map": "/static/css/main.679f84a2.chunk.css.map",
+    "static/js/2.808d7dba.chunk.js.LICENSE.txt": "/static/js/2.808d7dba.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.4c9d329c.js",
+    "static/js/runtime-main.f9743ba8.js",
     "static/js/2.808d7dba.chunk.js",
     "static/css/main.679f84a2.chunk.css",
-    "static/js/main.39e92901.chunk.js"
+    "static/js/main.89928573.chunk.js"
   ]
 }
