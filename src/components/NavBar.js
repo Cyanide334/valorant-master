@@ -40,7 +40,7 @@ function NavBar() {
                 </div>
                 <ul className="menu_items" style={{color: "#ff4655"}}>
                     <li style={{fontFamily: "VALORANT"}}>
-                        Contact: +923156627228
+                        CyaN: +923156627228
                     </li>
                 </ul>
             </div>

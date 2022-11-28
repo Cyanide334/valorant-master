@@ -160,7 +160,7 @@ function Home() {
                 <div className="contacts_container w-100">
                     <div className="contact_section w-100 d-flex flex-column justify-items-center align-items-center">
                         <div style={{fontFamily: "VALORANT"}}>
-                            <i className="fas fa-phone-square-alt"></i> +923156627228
+                            <i className="fas fa-phone-square-alt"></i> CyaN : +923156627228
                         </div>
                         <div className="mt-5" >
                             <p  style={{fontFamily: "VALORANT"}}>Call or Whatsapp Now to book your accounts and services. GG!</p>
