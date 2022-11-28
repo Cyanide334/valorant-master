@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/valorant-master/static/css/main.884a9572.chunk.css",
+    "main.js": "/valorant-master/static/js/main.9d7c0bbf.chunk.js",
+    "main.js.map": "/valorant-master/static/js/main.9d7c0bbf.chunk.js.map",
+    "runtime-main.js": "/valorant-master/static/js/runtime-main.dbcff67e.js",
+    "runtime-main.js.map": "/valorant-master/static/js/runtime-main.dbcff67e.js.map",
+    "static/js/2.dc212808.chunk.js": "/valorant-master/static/js/2.dc212808.chunk.js",
+    "static/js/2.dc212808.chunk.js.map": "/valorant-master/static/js/2.dc212808.chunk.js.map",
+    "index.html": "/valorant-master/index.html",
+    "static/css/main.884a9572.chunk.css.map": "/valorant-master/static/css/main.884a9572.chunk.css.map",
+    "static/js/2.dc212808.chunk.js.LICENSE.txt": "/valorant-master/static/js/2.dc212808.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dbcff67e.js",
+    "static/js/2.dc212808.chunk.js",
+    "static/css/main.884a9572.chunk.css",
+    "static/js/main.9d7c0bbf.chunk.js"
+  ]
+}
