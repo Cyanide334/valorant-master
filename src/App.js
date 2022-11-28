@@ -13,9 +13,7 @@ function App() {
         <BrowserRouter>
             <NavBar />
             <Switch>
-                <Route exact path="/valorant-master/" component={Home} />
-                <Route exact path="/valorant-master/products" component={Products} />
-                <Route exact path="/valorant-master/about" component={About} />
+                <Route exact path="/" component={Home} />
             </Switch>
         </BrowserRouter>
     );
