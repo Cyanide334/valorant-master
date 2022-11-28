@@ -141,14 +141,14 @@ function Home() {
                     />
                     <Package
                         color="#d366f4"
-                        image={process.env.PUBLIC_URL + "/images/phoenix.png"}
+                        image={process.env.PUBLIC_URL + "/images/reyna.png"}
                         name="Diamond"
                         description="2 days"
                         price="500"
                     />
                     <Package
                         color="#6dc79a"
-                        image={process.env.PUBLIC_URL + "/images/jett.png"}
+                        image={process.env.PUBLIC_URL + "/images/viper.png"}
                         name="Ascendant"
                         description="5 days"
                         price="1000"
