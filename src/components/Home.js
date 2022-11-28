@@ -10,9 +10,10 @@ function Point(props) {
             <div className="point_head">
                 <img src={props.icon} alt="" />
             </div>
-            <div className="point_body">
+            <div className="point_body ">
                 <div className="point_name" style={{fontFamily: "VALORANT"}}>{props.name}</div>
-                <div className="point_description">{props.description}</div>
+                <div className="point_description ">{props.description}</div>
+                <div style={{fontFamily: "VALORANT"}}>{props.price}</div>
             </div>
         </div>
     )
@@ -26,8 +27,8 @@ function Package(props) {
             <div className="package_information d-flex align-content-between flex-wrap ">
                 <div className="package_head " >
                     <div className="package_name" style={{fontFamily: "VALORANT"}}>{props.name}</div>
-                    <div className="package_description">{props.description}</div>
-                    <div className="package_description">{`${props.price}`} Rs. / rank</div>
+                    <div className="package_description" style={{fontFamily: "VALORANT"}}>{props.description}</div>
+                    <div className="package_description" style={{fontFamily: "VALORANT"}}>{`${props.price}`} Rs. / rank</div>
 
                 </div>
                 <div className="package_body d-flex flex-column justify-content-end" style={{fontFamily: "VALORANT"}}>
@@ -52,7 +53,7 @@ function Home() {
     }, []);
 
     return (
-        <div style={{position: "absolute"}}>
+        <div >
             <div className="section1">
                 <div className="container dark-overlay">
                     {/*<img src={process.env.PUBLIC_URL + "/images/reyna.png"} alt="" className="splash_image" />*/}
@@ -79,33 +80,45 @@ function Home() {
                         icon={process.env.PUBLIC_URL + "/images/icons/bladestorm.png"}
                         name="Bronze"
                         description="Smurf to your heart's content. Sheriff and Vandal Skin included."
+                        price="100 per week"
                     />
                     <Point
                         icon={process.env.PUBLIC_URL + "/images/icons/empress.png"}
                         name="Gold"
                         description="Good ol' fashioned smurfing. Sheriff and Vandal Skin included."
+                        price={"50 per week"}
                     />
                     <Point
                         icon={process.env.PUBLIC_URL + "/images/icons/dimensional-drift.png"}
                         name="Platinum"
                         description="Bit more fancier. Sheriff, Operator and Vandal Reaver pack included."
+                        price={"100 per week"}
                     />
 
                     <Point
                         icon={process.env.PUBLIC_URL + "/images/icons/shock-bolt.png"}
                         name="Diamond"
                         description="Now it's getting serious. Sheriff, Operator and Vandal Reaver pack included."
+                        price={"200 per week"}
                     />
+                    <div>
+                        <img src={process.env.PUBLIC_URL + "/images/phoenix.png"} alt="" className="img-fluid" />
+                    </div>
                     <Point
                         icon={process.env.PUBLIC_URL + "/images/icons/turret.png"}
                         name="Immortal"
                         description="Time for the big leagues. Sheriff, Operator, Vandal Reaver pack included. Ghost, Classic and Phantom Glitchpop set included"
+                        price={"550 per week"}
                     />
                      <Point
                         icon={process.env.PUBLIC_URL + "/images/icons/val-symbol.png"}
                         name="Radiant"
                         description="The best of the best. Sheriff, Operator, Vandal Reaver pack included. Ghost, Classic and Phantom Glitchpop set included. Guardian and Spectre Skin included."
-                    />
+                        price={"1000 per week"}
+                     />
+                    <div>
+                        <img src={process.env.PUBLIC_URL + "/images/jett.png"} alt="" className="img-fluid" />
+                    </div>
                 </div>
             </div>
 
@@ -123,21 +136,21 @@ function Home() {
                         color="#84cfd6"
                         image={process.env.PUBLIC_URL + "/images/jett.png"}
                         name="Platinum"
-                        description="2 days per rank"
+                        description="2 days"
                         price="200"
                     />
                     <Package
                         color="#d366f4"
                         image={process.env.PUBLIC_URL + "/images/phoenix.png"}
                         name="Diamond"
-                        description="2 days per rank"
+                        description="2 days"
                         price="500"
                     />
                     <Package
                         color="#6dc79a"
                         image={process.env.PUBLIC_URL + "/images/jett.png"}
                         name="Ascendant"
-                        description="2 days to diamond, 5 days to ascendant"
+                        description="5 days"
                         price="1000"
                     />
                 </div>
