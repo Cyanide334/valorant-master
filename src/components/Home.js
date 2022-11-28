@@ -70,6 +70,7 @@ function Home() {
                     }
                 </div>
             </div>
+
             <div className="section2 d-flex flex-column">
                 <div className="container_header flex-row mb-5">
                 Accounts
